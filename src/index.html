@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title> Music Visualizer</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+
+<body>
+  <div id="hideBody">
+    <div id="title">
+    	<h2>P5.JS Audio Visualizer</h2>
+  	</div>
+
+  	<div id="instruction">
+  		<h4>Choose your song file here:</h4>
+  	</div>
+    <input style="
+  				padding-left:5px;
+  				border: 1px solid #4169E1;
+  	    	border-radius: 5px;
+									bottom: 45px;
+  	    	box-shadow: 0 0 5px 3px #4169E1; " id="audiofile" controls type="file"/>
+    <h3 class="loader">Loading...</h3>
+    <script language="javascript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.5/addons/p5.sound.min.js'></script>
+    <script language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+    <script language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+
+
+
+    <script  src="./script.js"></script>
+
+
+    	<ul>
+    	  <li><a  href="index.html">Home</a></li>
+    	  <li><a href="#news">WebGL Audio Visualizer</a></li>
+
+    	</ul>
+
+      <div id="controls">
+      				<div id="button_play">
+      					<button
+      						type="button"
+      						class="button"
+      						value="Play"
+      						onclick="mode('play')"
+      						style="position: relative; right: 86px;"
+      					>&#x23f5;</button>
+      				</div>
+
+      				<div id="button_pause">
+      					<button
+      						type="button"
+      						class="button"
+
+      						onclick="mode('pause')"
+      						style="position: relative; right: 50px;"
+      					>&#10074;&#10074;</button>
+      				</div>
+              <!-- <input id="vol-control" type="range" min="0" max="100" step="1"  ></input> -->
+
+      				<!-- <div id="scrubber">
+      					<input onmouseover="isSeeking = 1" onmouseout="isSeeking = 0" onclick="song.currentTime = document.getElementById('audioTime').value * (song.duration() / 100);" type="range" id="audioTime" style="width:33.3vw">
+      				</div>
+
+      				<div id="audioCurrentTime">
+      					<h1 id="time" style="position: absolute; left: 10px;"></h1>
+      				</div> -->
+    	</div>
+  </div>
+</body>
+
+</html>
