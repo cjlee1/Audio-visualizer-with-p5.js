@@ -10,8 +10,7 @@
   
       <style>
       /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
-      
-input {
+      input {
   z-index: 2;
 	position: absolute;
 	bottom: 45px;
@@ -102,45 +101,6 @@ font-size; 30px;
 	left: 33.3vw;
 }
 
-/* input[type=range]{
-    -webkit-appearance: none;
-}
-
-input[type=range]::-webkit-slider-runnable-track {
-    width: 300px;
-    height: 10px;
-    background: #ddd;
-    border: none;
-    border-radius: 3px;
-}
-
-input[type=range]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    border: none;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-    background: #6600ff;
-    margin-top: -4px;
-}
-
-input[type=range]:focus {
-    outline: none;
-}
-
-input[type=range]:focus::-webkit-slider-runnable-track {
-    background: #ccc;
-} */
-
-/* #audioCurrentTime {
-	color: white;
-	position: absolute;
-	bottom: 140px;
-	left: 66.6%;
-	font-size: 70%;
-  z-index: 2;
-} */
-
 .link {
 	color: rgb(255, 255, 255);
 }
@@ -214,11 +174,7 @@ li a:hover:not(.active) {
     <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.5/addons/p5.sound.min.js'></script>
     <script language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
     <script language="javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
-
-
-
     <script  src="./script.js"></script>
-
 
     	<ul>
     	  <li><a  href="index.html">Home</a></li>
@@ -246,15 +202,7 @@ li a:hover:not(.active) {
       						style="position: relative; right: 50px;"
       					>&#10074;&#10074;</button>
       				</div>
-              <!-- <input id="vol-control" type="range" min="0" max="100" step="1"  ></input> -->
-
-      				<!-- <div id="scrubber">
-      					<input onmouseover="isSeeking = 1" onmouseout="isSeeking = 0" onclick="song.currentTime = document.getElementById('audioTime').value * (song.duration() / 100);" type="range" id="audioTime" style="width:33.3vw">
-      				</div>
-
-      				<div id="audioCurrentTime">
-      					<h1 id="time" style="position: absolute; left: 10px;"></h1>
-      				</div> -->
+             
     	</div>
   </div>
 </body>
