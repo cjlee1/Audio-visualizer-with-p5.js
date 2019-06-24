@@ -1,0 +1,123 @@
+input {
+  z-index: 2;
+	position: absolute;
+	bottom: 45px;
+	left: 10px;
+	width: 300px;
+}
+.loader {
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    display: none;
+}
+.loader.loading  { display: block; }
+canvas {
+			z-index: 1;
+			margin:auto;
+		}
+body{
+	margin: 0;
+	padding: 0;
+	display: block;
+	overflow: hidden;
+font-size; 30px;
+	font-family: 'Lato', sans-serif;
+}
+
+.button {
+    background-color: #4169E1;
+    border: 1px solid black;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.textbox {
+    background: white;
+    border: 1px solid #4169E1;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 3px #4169E1;
+    color: #666;
+    outline: none;
+    height:23px;
+    width: 275px;
+}
+
+#title {
+	color: white;
+	position: absolute;
+	bottom: 15px;
+	left: 10px;
+	
+}
+
+#instruction {
+	color: white;
+	position: absolute;
+	bottom: 85px;
+	left: 10px;
+}
+
+#button_play {
+	z-index: 2;
+	position: absolute;
+	bottom:  40px;
+	left: 33.3%;
+}
+
+#button_pause {
+	z-index: 2;
+	position: absolute;
+	bottom: 40px;
+	left: 33.3%;
+}
+
+
+
+#scrubber {
+	z-index: 2;
+	position: absolute;
+	bottom: 10px;
+	left: 33.3vw;
+}
+
+.link {
+	color: rgb(255, 255, 255);
+}
+
+/* navbar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f3f3f3;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  border-left: 1px solid #bbb;
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #4169E1;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
