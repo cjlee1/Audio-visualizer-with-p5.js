@@ -24,7 +24,6 @@ var fft, // Allow us to analyze the song
     intensity = 0;
 
 // Load our song
-let analyzer;
 
 var loader = document.querySelector(".loader");
 document.getElementById("audiofile").onchange = function(event) {
