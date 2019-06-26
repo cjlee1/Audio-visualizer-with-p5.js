@@ -1,7 +1,8 @@
-# p5.js audio visualizer
+# p5.js audio visualizer 
  A Pen created at CodePen.io. Original URL: [https://codepen.io/cjlee/pen/xodZpO](https://codepen.io/cjlee/pen/xodZpO)
 
 Loading sounds, playing and pausing them and makes visual representation of the loaded songs.
+link to deployed site: https://cjlee1.github.io/Audio-visualizer-with-p5.js/
 
 Contributors
 ============
